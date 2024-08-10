@@ -1,0 +1,5 @@
+turbineStress.stress.inStress,turbineStress.stress.inStress
+turbineStress.stress.outStress,turbineStress.stress.outStress
+simpleGenerator.summary.P_el,simpleGenerator.summary.P_el
+GW_CWS1_Valve_Ramp_Cold_HT_out3.y,GW_CWS1_Valve_Ramp_Cold_HT_out3.y
+PTarget.y,PTarget.y
