@@ -169,6 +169,9 @@ for inputs, _ in dataloader:
     original_scale_predictions = dataset.scaler_Y.inverse_transform(outputs)
     predictions.extend(original_scale_predictions)
 
+# save model
+torch.save(model, 'full_model.pth')
+
 plt.figure(figsize=(12, 6))
 plt.plot(predictions, label='Predicted')
 # plt.plot(actual_vals, label='Actual t0')
